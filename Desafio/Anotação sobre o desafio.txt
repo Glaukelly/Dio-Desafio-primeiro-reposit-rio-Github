@@ -1,0 +1,43 @@
+Desafio do projeto Git/GitHub
+Com Venilton
+@falvojr
+
+Criando primeiro repositório bo Git/GitHub para compartilhar a minha evolução técnica
+
+Como já possuo login e senha no GitHub
+Na página do GitHub fui no meu perfil, cliquei em meus repositórios, novo repositório, nomeei, coloquei uma descrição
+marquei como público para que outros possam ter acesso e cliquei em criar novo repositório.
+
+editei meu README.md usando a sintaxe básica Markdown: https://www.markdownguide.org/basic-syntax/
+
+Para baixar esse repositório...
+
+Para clonar o repositório criado cliquei em código, copiei a URL em https,
+Abri o gitbash na minha máquina na pasta desejada, e segui a seguinte sequência de comandos:
+git clone + url que copiei no gitHub - https://github.com/Glaukelly/Dio-Desafio-primeiro-reposit-rio-Github.git
+Enter
+Essa ação criou uma pasta e um arquivo README.md 
+cd + o nome do repositório criado //atenção se digitar as 3 primeiras letrasdo nome do reporitório e clicar em tab essa ação irá autocompletar a sua busca//
+enter
+Entrou dentro do repositório
+Criei um arquivo txt para anotações da minhas aulas o que estou entendo, tenho que estudar.. me organizando
+para enviar essas informaçõe para o servidor
+ no git bash
+git status //o git identificou (em vermelho) que criei uma pasta nova na minha máquina 
+git add . // vai sinalizar ao github que queremos utilizar essa pasta no controle de versão, adicionando todos os arquivos
+git satatus //o git identificou (em verde) entendo que esse arquivo deverá  ser considerado 
+//essa ação só adiciona ao controle de versão local e não ao servidor do GitHub
+git commit -m "Inclusão das anotações do desafio de projeto do Git/GitHub" Obs: o comentário do commit é muito importante, tem que ser coerente ao que estamos querendo enviar
+git status novamente// te dará um aviso que o commit local foi criado e que para mandar para a nuvem voce precisa dar um push
+git push origin main // envia todos os commits para a nuvem e sua pasta local já esta no GitHub
+
+
+Assim podemos organizar nosso repositório da melhor forma possível, seja por tema, por curso ou dia.. de maneira prática...
+
+Uma frase legal que o Venilton colocou no primeiro dia desse desafio
+"Alguém está entado na sombra hoje, porque alguém plantou uma árvore há muito tempo."
+
+
+
+
+
