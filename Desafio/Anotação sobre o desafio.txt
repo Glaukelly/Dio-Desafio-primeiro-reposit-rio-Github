@@ -35,9 +35,14 @@ git push origin main // envia todos os commits para a nuvem e sua pasta local j�
 Assim podemos organizar nosso repositório da melhor forma possível, seja por tema, por curso ou dia.. de maneira prática...
 
 Uma frase legal que o Venilton colocou no primeiro dia desse desafio
-"Alguém está entado na sombra hoje, porque alguém plantou uma árvore há muito tempo." Warren Buffett
+"Alguém está sentado na sombra hoje, porque alguém plantou uma árvore há muito tempo." Warren Buffett
 
-
-
-
+Obs:
+Para atualizar um projeto caso você seja como eu que só vai digitando e não para pra verificar o que igitou faça da seguinte forma no GitBush
+git status // irá te sinalizar que o arquivo foi modificado
+git add . // vai sinalizar ao gitHub que queremos considerar o arquivo no controle de versão
+git status //o git identificou (em verde) entendo que esse arquivo deverá  ser considerado
+git pull origin main // irá atualizar o arquivo com as modificações realizadas ( tente corrigir todos os seus erros)
+git commit -m "atualiazação..." Isso é muito importante
+Git push origin main //envia todos os commits pra a nuvem.
 
