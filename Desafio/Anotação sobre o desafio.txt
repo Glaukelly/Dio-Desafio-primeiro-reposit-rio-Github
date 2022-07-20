@@ -35,7 +35,7 @@ git push origin main // envia todos os commits para a nuvem e sua pasta local j�
 Assim podemos organizar nosso repositório da melhor forma possível, seja por tema, por curso ou dia.. de maneira prática...
 
 Uma frase legal que o Venilton colocou no primeiro dia desse desafio
-"Alguém está entado na sombra hoje, porque alguém plantou uma árvore há muito tempo."
+"Alguém está entado na sombra hoje, porque alguém plantou uma árvore há muito tempo." Warren Buffett
 
 
 
